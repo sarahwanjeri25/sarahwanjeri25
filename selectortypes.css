@@ -1,0 +1,34 @@
+/* Universal Selector */
+*{
+    margin: 20;
+    padding: 40;
+}
+
+/* Type/Element selector*/
+p{
+   color: blue;
+}
+
+/*Class Selector*/
+.highlight{
+   background-color: crimson;
+}
+
+/* Id Selector*/
+#myid{
+    font-size: xx-large;
+}
+/* Attribute Selector*/
+input[type="text"]{
+    border:1px solid #cc2193;
+}
+
+/* Descendant selector */
+article p {
+    font-style:italic;
+}
+
+/* Child selector */
+ul > li{
+    list-style-type: square;
+}
